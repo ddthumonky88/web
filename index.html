@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web sử dụng Java backend</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Trang web sử dụng Java backend</h1>
+    </header>
+    <main>
+        <form id="login-form" action="/login" method="POST">
+            <label for="username">Tên đăng nhập:</label>
+            <input type="text" name="username" required>
+            <label for="password">Mật khẩu:</label>
+            <input type="password" name="password" required>
+            <button type="submit">Đăng nhập</button>
+        </form>
+        <div id="message"></div>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
